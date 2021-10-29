@@ -29,7 +29,8 @@ Lastly, to minmize complexity and computational cost we reduced the features dow
 By using the the features with the greatest predicted odds ratio, the best performing hyper-parameters, and removing excessive features we arrive at a final model that balances high accuracy with reasonable computational costs.
 
 ### For More Information
-Please review our full analysis in our Jupyter Notebook (http://localhost:8888/notebooks/Documents/GitHub/phase_3/Project_3/Rookie%205%20Year%20Predictions.ipynb#)
+Please review our full analysis in our Jupyter Notebook ([Rookie_5_Year_Predictions_-_Jupyter_Notebook.pdf](https://github.com/serajkhazei/Project_3/files/7444305/Rookie_5_Year_Predictions_-_Jupyter_Notebook.pdf)
+)
 
 or our presentation ([project_3.pdf](https://github.com/serajkhazei/Project_3/files/7444239/project_3.pdf))
 
