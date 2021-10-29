@@ -20,6 +20,7 @@ We explored the data to see the contents and determine the relevancy of each var
 
 We first created a baseline model and decided to implement a decision tree and used field goal percentage (fg) as our feature. We chose to go with a percentage because statistics like games played, points per game, and minutes per game contain bias.
 
+
 Then we created train-test split consisting of all the features we decided to keep after our EDA and ran 5 different models which was a Logistic Regression, K-Nearest Neighbors, Decision Tree, Random Forest, and XGBoost. After all those models we then hypertuned the parameters of the logistic regression due the following model giving us the highest accuracy score.
 
 Lastly, to minmize complexity and computational cost we reduced the features down to top 5 features with the highest predictive power, and tested the tuned Logistic Regression with the top 5 features on the tesing set.
@@ -28,20 +29,21 @@ Lastly, to minmize complexity and computational cost we reduced the features dow
 By using the the features with the greatest predicted odds ratio, the best performing hyper-parameters, and removing excessive features we arrive at a final model that balances high accuracy with reasonable computational costs.
 
 ### For More Information
-Please review our full analysis in our Jupyter Notebook or our presentation.
+Please review our full analysis in our Jupyter Notebook ([Rookie_5_Year_Predictions_-_Jupyter_Notebook.pdf](https://github.com/serajkhazei/Project_3/files/7444255/Rookie_5_Year_Predictions_-_Jupyter_Notebook.pdf)
+
+or our presentation ([project_3.pdf](https://github.com/serajkhazei/Project_3/files/7444239/project_3.pdf))
+
 
 ### Repository Structure
-Describe the structure of your repository and its contents, for example:
+
 
 ├── README.md <- The top-level README for reviewers of this project, you are reading it right now.
 
-├── https://docs.google.com/presentation/d/1Wy7Z5mpkqTLzUsuMDgLRJNFMJk_4zjdAgajiyG8qK5c/edit#slide=id.gfb44c67d90_1_3548 <- PDF version of project presentation
+├──  [project_3.pdf]<- PDF version of project presentation
 
-├── code
+├── Collaborators Notebooks <- Various notebooks done by the collaborators
 
-│ ├── init.py <- .py file that signals to python these folders contain packages
-
-│ └── ipynb_checkpoints.ipynb <- Notebook containing a project checkpoint
+├── ipynb_checkpoints.ipynb <- Notebook containing a project checkpoint
 
 ├── Dataset <- Both sourced externally and generated from code
 
